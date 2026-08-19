@@ -1,0 +1,10 @@
+Separação inter-regime (Natural vs Antrópico) — MÉTRICA PRINCIPAL: distância
+CRS métrico: ESRI:102033 | Semente: 42 | N_boot=2000, N_perm=999
+
+Distância média observada :    308.2 km
+  IC 95% (bootstrap)     : [304.6, 312.9] km
+  p-valor (permutação)     : 0.001   (H0: mesma distribuição espacial)
+
+CAVEAT 1: bootstrap trata patches como independentes; por autocorrelação
+espacial os ICs são um PISO de incerteza. A permutação (dentro do ano) é robusta.
+CAVEAT 2: anos de convergência (dist ~0) têm IC inflado por convexidade da norma.
