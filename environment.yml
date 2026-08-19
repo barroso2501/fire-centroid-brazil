@@ -1,0 +1,21 @@
+# ============================================================
+# environment.yml — reproducible environment
+#   conda env create -f environment.yml
+#   conda activate fire-centroids
+# ============================================================
+name: fire-centroids
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # --- núcleo usado pelos 5 scripts de análise/figura ---
+  - numpy
+  - pandas
+  - matplotlib
+  - pyproj          # reprojeção para Albers (ESRI:102033 / SIRGAS 2000)
+  - pyarrow         # leitura de parquet (patches)
+  # --- usado no pré-processamento espacial (âncoras dos biomas, atribuição) ---
+  - geopandas       # necessário para os scripts de construção/atribuição espacial
+  - shapely
+  # --- opcional: notebooks, se incluídos no repositório ---
+  - jupyterlab
