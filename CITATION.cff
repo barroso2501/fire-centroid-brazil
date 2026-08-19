@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software or derived data, please cite both the article and this repository."
+title: "Directional Centroid Trajectories of Fire Activity Across Brazilian Biomes — analysis code and derived data"
+abstract: >-
+  Analysis pipeline and derived datasets reproducing the figures and quantitative
+  results of Ramos-Neto & Hofmann (2026), which characterizes the spatial
+  reorganization of fire activity across Brazilian biomes (1985-2024) using
+  directional centroid trajectories from MapBiomas Fire Collection 4.
+type: software
+authors:
+  - family-names: "Ramos-Neto"
+    given-names: "Mario Barroso"
+    orcid: "https://orcid.org/0000-0001-5890-0536"
+    affiliation: "The Nature Conservancy, Brasilia, Brazil"
+  - family-names: "Hofmann"
+    given-names: "Gabriel Selbach"
+    orcid: "https://orcid.org/0000-0003-2525-8537"
+    affiliation: "Programa de Pos-Graduacao em Geografia, Universidade Federal do Rio Grande do Sul, Porto Alegre, RS, Brazil"
+keywords:
+  - fire
+  - Brazilian biomes
+  - Cerrado
+  - Amazon
+  - burned area
+  - centroid
+  - MapBiomas
+  - spatial analysis
+license: MIT
+repository-code: "https://github.com/USUARIO/REPO"   # ajustar ao criar o repositorio
+version: "1.0.0"
+date-released: "2026-01-01"   # ajustar para a data do release/DOI
+# --- 'preferred-citation': GitHub/Zenodo sugerem citar o ARTIGO ---
+preferred-citation:
+  type: article
+  title: "Directional Centroid Trajectories Reveal Shifting Fire Activity Across Brazilian Biomes"
+  authors:
+    - family-names: "Ramos-Neto"
+      given-names: "Mario Barroso"
+      orcid: "https://orcid.org/0000-0001-5890-0536"
+    - family-names: "Hofmann"
+      given-names: "Gabriel Selbach"
+      orcid: "https://orcid.org/0000-0003-2525-8537"
+  journal: "Fire Ecology"
+  year: 2026
+  # doi: "10.xxxx/xxxxx"   # adicionar quando o artigo tiver DOI
