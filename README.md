@@ -30,7 +30,7 @@ derived data. It does **not** redistribute the raw MapBiomas rasters (see *Data 
   in the Fire product.
 - **Biome boundaries** — IBGE (2025), *Biomas e Sistema Costeiro-Marinho do Brasil,
   1:250,000, first revision* (Notas metodológicas 01/2025).
-- Processed patches data are available in 10.5281/zenodo.22029092
+- Processed patches data are available in https://zenodo.org/records/22029092
 
 ## Methods summary
 
